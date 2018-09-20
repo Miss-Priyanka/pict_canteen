@@ -1,4 +1,4 @@
-package edu.pict.canteen.pict.pictcanteenlogin;
+package edu.pict.canteen.pict.pictcanteen.login;
 
 
 import android.os.Bundle;
@@ -10,7 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.myhexaville.login.R;
+import edu.pict.canteen.pict.pictcanteen.R;
+
 
 public class LoginFragment extends Fragment implements OnLoginListener{
     private static final String TAG = "LoginFragment";

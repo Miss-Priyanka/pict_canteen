@@ -16,8 +16,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.myhexaville.login.OnButtonSwitchedListener;
-import com.myhexaville.login.R;
+
+import edu.pict.canteen.pict.pictcanteen.R;
 
 import static android.graphics.Paint.Align.CENTER;
 import static android.graphics.Paint.Style.FILL;

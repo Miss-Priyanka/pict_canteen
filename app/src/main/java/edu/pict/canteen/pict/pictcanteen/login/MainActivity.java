@@ -8,19 +8,18 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.myhexaville.login.databinding.ActivityMainBinding;
-import com.myhexaville.login.login.LoginFragment;
-import com.myhexaville.login.login.SignUpFragment;
+
+import edu.pict.canteen.pict.pictcanteen.R;
 
 import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;
-import static com.myhexaville.login.FlexibleFrameLayout.ORDER_LOGIN_STATE;
-import static com.myhexaville.login.FlexibleFrameLayout.ORDER_SIGN_UP_STATE;
+import static edu.pict.canteen.pict.pictcanteen.login.FlexibleFrameLayout.ORDER_LOGIN_STATE;
+import static edu.pict.canteen.pict.pictcanteen.login.FlexibleFrameLayout.ORDER_SIGN_UP_STATE;
 
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
-    private ActivityMainBinding binding;
+    private MyActivityMainBinding binding;
     private boolean isLogin = true;
 
     @Override

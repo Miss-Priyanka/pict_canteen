@@ -9,7 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.myhexaville.login.R;
+import edu.pict.canteen.pict.pictcanteen.R;
+
 
 public class SignUpFragment extends Fragment implements OnSignUpListener{
     private static final String TAG = "SignUpFragment";
